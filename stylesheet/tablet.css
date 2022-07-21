@@ -1,0 +1,59 @@
+@media (min-width: 600px) and (max-width: 991.98px) {
+  
+  .spotlight-intro {
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .spotlight-img{
+width: 50%;
+  }
+
+  .info-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .info-details .expand-btn{
+    text-align: center;
+  }
+  .expand-btn{
+    margin: 40px 0;
+  }
+  .expand-btn a{
+    width: 20%;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 20px;
+    background-color: rgb(226, 49, 43);
+    border-radius: 5px;
+  }
+  .info-tab {
+    display: flex;
+flex-direction: row;
+    background: none;
+    height: 100px;
+    margin-bottom: 50px;
+  }
+
+  .info-tab a {
+    width: 100%;
+    height: 80px;
+  }
+
+.info-cards{
+  display: grid;
+  grid-template-columns: repeat(2, 3fr); 
+  grid-template-rows: repeat(2, 3fr);
+}
+.expand-btn{
+  visibility: visible;
+}
+
+
+ul{
+  flex-wrap: wrap;
+}
+
+}
