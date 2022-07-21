@@ -3,10 +3,15 @@
   width: 100%;
 }
 .info-tab a {
-  background-color: rgb(240, 224, 224);
-  color: #000;
+  background-color: rgba(255, 255, 255, 0.514);
+  color: #0f0f0f;
   border-radius: 5px;
   font-size: 14px;
+}
+.info-tab 
+.bg-r{
+  background-color: #cc0c0c;
+  color: #f0f0f0;
 }
 .upcoming-cards {
   display: grid;
@@ -27,6 +32,13 @@
 .up-card img {
   width: 30%;
 }
+.up-card .flag, h5, span{
+  margin: 10px 0;
+}
+
+
+
+
 /**mobile-device**/
 @media screen and (max-width: 600px) {
   .upcoming-cards {
