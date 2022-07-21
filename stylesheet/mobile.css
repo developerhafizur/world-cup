@@ -1,5 +1,4 @@
 @media screen and (max-width: 600px) {
-  
   /**spotlight section**/
   .container-fluid {
     margin: auto;
@@ -13,35 +12,42 @@
   }
   .spotlight-intro {
     width: 80%;
-    text-align: center;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
   }
   .sp-heading {
-    text-align: center;
-   
+    width: 80%;
     font-size: 30px;
     font-weight: 700;
     line-height: 33px;
+    text-align: center;
+  }
+  .spotlight-intro p {
+    text-align: center;
   }
 
   .spotlight-img {
-   padding: 0 50px;
+    padding: 0 50px;
     height: 100%;
   }
-  .sp-btn{
+  .sp-btn {
     width: 60%;
   }
 }
 /**mobile device**/
 @media screen and (max-width: 600px) {
-
   /**info-section**/
   .info-container {
     flex-direction: column;
+    justify-content: center;
   }
   .info-tab {
+    width: 100%;
     background: none;
-    text-align: center;
     flex-direction: column;
+    justify-content: center;
+    text-align: center;
   }
   .info-tab a {
     color: black;
@@ -51,8 +57,8 @@
     grid-template-columns: repeat(1, 3fr);
     grid-template-rows: repeat(1, 3fr);
   }
-  .info-card h4{
-font-size: larger;
+  .info-card h4 {
+    font-size: larger;
   }
   /**footer-section**/
   .footer-section {

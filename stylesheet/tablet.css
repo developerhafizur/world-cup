@@ -1,12 +1,9 @@
 /***teblet device***/
 
 @media (min-width: 600px) and (max-width: 991.98px) {
+
   /***spotlight***/
-  .spotlight-intro {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
+
   .spotlight-img {
     width: 50%;
   }
@@ -32,10 +29,11 @@
     background-color: rgb(226, 49, 43);
     border-radius: 5px;
   }
-  .info-tab {
+  .info-tab{
     display: flex;
     flex-direction: row;
     background: none;
+    width: 100%;
     height: 100px;
     margin-bottom: 50px;
   }
