@@ -189,6 +189,12 @@
 .info-card span i {
   margin: 10px;
 }
+
+.info-card .icon{
+  width: 25px;
+  vertical-align: middle;
+ 
+}
 .expand-btn {
   visibility: hidden;
 }
