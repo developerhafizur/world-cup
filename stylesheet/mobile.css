@@ -1,4 +1,6 @@
 @media screen and (max-width: 600px) {
+  
+  /**spotlight section**/
   .container-fluid {
     margin: auto;
   }
@@ -29,8 +31,10 @@
     width: 60%;
   }
 }
-
+/**mobile device**/
 @media screen and (max-width: 600px) {
+
+  /**info-section**/
   .info-container {
     flex-direction: column;
   }
@@ -50,13 +54,11 @@
   .info-card h4{
 font-size: larger;
   }
+  /**footer-section**/
   .footer-section {
     padding: 0;
   }
-
-  .footer-container {
-  }
-  ul {
+  .footer-ul {
     display: flex;
     flex-direction: column;
   }

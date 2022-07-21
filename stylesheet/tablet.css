@@ -1,27 +1,30 @@
+/***teblet device***/
+
 @media (min-width: 600px) and (max-width: 991.98px) {
-  
+  /***spotlight***/
   .spotlight-intro {
-    
     justify-content: center;
     align-items: center;
     text-align: center;
   }
-  .spotlight-img{
-width: 50%;
+  .spotlight-img {
+    width: 50%;
   }
+
+  /**information section**/
 
   .info-container {
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .info-details .expand-btn{
+  .info-details .expand-btn {
     text-align: center;
   }
-  .expand-btn{
+  .expand-btn {
     margin: 40px 0;
   }
-  .expand-btn a{
+  .expand-btn a {
     width: 20%;
     color: aliceblue;
     text-decoration: none;
@@ -31,7 +34,7 @@ width: 50%;
   }
   .info-tab {
     display: flex;
-flex-direction: row;
+    flex-direction: row;
     background: none;
     height: 100px;
     margin-bottom: 50px;
@@ -42,18 +45,18 @@ flex-direction: row;
     height: 80px;
   }
 
-.info-cards{
-  display: grid;
-  grid-template-columns: repeat(2, 3fr); 
-  grid-template-rows: repeat(2, 3fr);
-}
-.expand-btn{
-  visibility: visible;
-}
+  .info-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
+    grid-template-rows: repeat(2, 3fr);
+  }
+  .expand-btn {
+    visibility: visible;
+  }
 
+  /**footer-section**/
 
-ul{
-  flex-wrap: wrap;
-}
-
+  .footer-ul {
+    flex-wrap: wrap;
+  }
 }
